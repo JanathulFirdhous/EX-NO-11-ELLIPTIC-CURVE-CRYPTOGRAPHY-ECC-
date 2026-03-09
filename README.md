@@ -101,8 +101,8 @@ int main() {
     sharedSecretA = scalarMultiplication(publicB, privateA, a, p); 
     sharedSecretB = scalarMultiplication(publicA, privateB, a, p); 
 
-    printf("Shared secret computed by Raga: (%lld, %lld)\n", sharedSecretA.x, sharedSecretA.y);
-    printf("Shared secret computed by Sudha: (%lld, %lld)\n", sharedSecretB.x, sharedSecretB.y);
+    printf("Shared secret computed by jana: (%lld, %lld)\n", sharedSecretA.x, sharedSecretA.y);
+    printf("Shared secret computed by firdhous: (%lld, %lld)\n", sharedSecretB.x, sharedSecretB.y);
 
     if (sharedSecretA.x == sharedSecretB.x && sharedSecretA.y == sharedSecretB.y) {
         printf("Key exchange successful. Both shared secrets match!\n");
@@ -116,7 +116,8 @@ int main() {
 
 
 ## Output:
-<img width="1919" height="1069" alt="Screenshot 2026-03-09 090654" src="https://github.com/user-attachments/assets/846210cb-e952-4f0d-8e6e-e66995fa2e5f" />
+<img width="1919" height="1065" alt="image" src="https://github.com/user-attachments/assets/8a9c7451-d34c-45c5-ae20-fc1a84597daa" />
+
 ## Result:
 The program is executed successfully
 
